@@ -18,6 +18,7 @@ class Auto:
         self.asientos = asientos
         self.marca = marca
         self.registro = registro
+        self.motor = motor
         
     def cantidadAsientos(self):
         contador_asientos = 0
@@ -52,3 +53,4 @@ class Motor:
             if tipo in ['electrico','gasolina']:
                 self.tipo = tipo
         
+
