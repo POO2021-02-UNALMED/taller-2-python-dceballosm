@@ -5,7 +5,7 @@ class Asiento:
         self.registro = registro
         
     def cambiarColor(self, color):
-        if isinstance(color, 'str'):
+        if isinstance(color, str):
             if color in ['rojo','verde','amarillo','negro','blanco']:
                 self.color = color
 
@@ -53,4 +53,3 @@ class Motor:
             if tipo in ['electrico','gasolina']:
                 self.tipo = tipo
         
-
