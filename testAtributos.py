@@ -1,6 +1,5 @@
 from main import Asiento, Motor, Auto
 
-
 def testAtributosMotor():
 	Motor(4, "electrico", 142)
 	assert(True)
